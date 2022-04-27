@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+
+<!--Today we learned to create forms -->
+
+
+<body>
+    <section>
+     <h1>Username and Password</h1>
+           
+     <form action="/tacos">
+              
+      <p>
+
+        <label for="username">Enter A name</label>
+        <input id="username" type="text" placeholder="username" name="username">
+
+     </p>
+<!---->
+
+      <p>
+     <label for="password">Enter A name</label>
+     <input id="password" type="password" placeholder="password" name="password">
+
+     </p>
+
+     <button>Submit Button</button>
+
+     </form>
+
+    </section>
+
+   <hr>
+   <!--the command hr creates a line so we can separate each section-->
+   
+    <section>
+    
+        <h1>Query Strings</h1>
+
+     <!--the form action allows us to link to a server.
+            The "input type" can be different depending on the data you're wanting. In this case were searching 
+        so it would be text.-->
+           
+      <form action="https://www.reddit.com/search/">
+      <input type="text" name="q">
+      <button> Reddit Search </button>
+    
+        </form>
+           
+     <form action="https://www.youtube.com/search/">
+     <input type="text" name="q">   
+     <button>Youtube Search</button>
+
+        </form>
+
+        <!--Hey Monte, for some reaseon the google link will not work so i used bing instead. 
+            I tired to input it multiple ways, but every time i copy path and try searching in the
+        tab it gives me a 404 error message. But bing worked  -->
+
+        <form action="https://www.bing.com/search/">
+            <input type="text" name="q">   
+            <button>Bing Search</button>
+
+         </form>
+
+    </section>
+
+<!---->
+
+<section>
+
+
+    <h1>Radio Buttons and Checkboxes</h1>
+   
+        <form action="birds">
+        <label for="agree">Iagree to everything</label>
+        <input type="checkbox" name="agree_tos" id="agree">
+        
+        <p>
+            <label for="s">Small</label>
+            <input type="radio" name="size" id="s" value="S">
+
+            <label for="m">Medium</label>
+            <input type="radio" name="size" id="m" value="M">
+
+            <label for="l">Large</label>
+            <input type="radio" name="size" id="m" value="L">
+
+        </p>
+
+<!---->
+
+        <p>
+            <label for="favcolor">What is your favorite color?</label>
+
+            <select name="favrite"id="favcolor">
+
+                <option value="blue">Blue</option>
+                <option value="Red">Red</option>
+                <option value="Purple">Purple</option>
+
+
+                </select>
+                </p>
+
+<!---->
+
+        <p>
+
+            <label for="Scroll"> Sadie's Scroll Bar</lable>
+            <input type="range"id="scroll" min="2" max="10" name="scrollbar">
+
+        </p>
+
+<!---->
+
+         <p>
+            <label for="request">Type Into This Box</label>
+            <textarea id="request" name="reqs" row="15" cols="15" placeholder="Type Something Here!"></textarea>
+
+         </p>
+
+
+        <button>Submit Button</button>
+
+        </form>
+    
+
+</section>
+
+
+<hr>
+
+<!--In this section we created form validations-->
+
+<section>
+    <h2>Form Validations</h2>
+    <form action="/bananas">
+
+<!---->
+        <label for="required1"></label>
+
+        <input type="text" name="funny" id="required1" required>
+<!---->
+       
+        <label for="length"></label>
+        <input tyep="text" name="lenghthy" id="lenght" minlength="5" maxlenghth="10">
+
+
+        <button type="submit">Submit Button</button>
+    
+    </form>
+    </section>
+    </body>
+    </html> 
