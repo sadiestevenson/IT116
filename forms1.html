@@ -16,16 +16,23 @@
      <h1>Username and Password</h1>
            
      <form action="/tacos">
+
+<!--the label element suggest there is a going to be a caption, and it is followed by the"for"
+attribute to tell what we createdthe label for. We are telling the user to "enter a name"
+The "input" element suggest that there will be data filled in, and it is followed with a specific
+id which is the username, and to specify the data we put the "type" to text.
+The placeholder suggest what the username is supposed to type.-->
               
-      <p>
+     <p>
 
         <label for="username">Enter A name</label>
         <input id="username" type="text" placeholder="username" name="username">
 
      </p>
-<!---->
+<!--In this section we took the same steps as above to create a label for a password.--->
 
       <p>
+
      <label for="password">Enter A name</label>
      <input id="password" type="password" placeholder="password" name="password">
 
@@ -72,9 +79,14 @@
 
     </section>
 
-<!---->
+
+
 
 <section>
+
+<!--In the this section, we learned to create checkboxes using the "form" element. We usled the 
+"label" element again to create the caption "agree to everyting" but the input type this time is 
+a checkbox, so the reader is able to click on it if they wanted to agree to everything.-->
 
 
     <h1>Radio Buttons and Checkboxes</h1>
@@ -83,6 +95,10 @@
         <label for="agree">Iagree to everything</label>
         <input type="checkbox" name="agree_tos" id="agree">
         
+
+<!--We took the same steps in this section to create checkboxes for different sizes the reader
+will be able to choose from-->
+
         <p>
             <label for="s">Small</label>
             <input type="radio" name="size" id="s" value="S">
@@ -95,7 +111,9 @@
 
         </p>
 
-<!---->
+<!--In this section we created a drop down tool using the "option" element and the 
+value suggests what the different options are. In this case, they will be chosing their facorite
+color-->
 
         <p>
             <label for="favcolor">What is your favorite color?</label>
@@ -110,7 +128,9 @@
                 </select>
                 </p>
 
-<!---->
+<!--In this section we created a scroll bar with the "input" element, with the type being
+a range, suggesting the reader can choose a specifc amount of something. The specified ID for this 
+input is a scroll bar, and we gave a min and max value to the scroll bar.-->
 
         <p>
 
@@ -119,7 +139,8 @@
 
         </p>
 
-<!---->
+<!--In this sectio we creatd an area where the reader can type whatever they want, and we did that
+ by using the "textarea" element.-->
 
          <p>
             <label for="request">Type Into This Box</label>
@@ -144,11 +165,12 @@
     <h2>Form Validations</h2>
     <form action="/bananas">
 
-<!---->
+<!--Honestly Im gonna need this section explained to me-->
+
         <label for="required1"></label>
 
         <input type="text" name="funny" id="required1" required>
-<!---->
+<!--This one too-->
        
         <label for="length"></label>
         <input tyep="text" name="lenghthy" id="lenght" minlength="5" maxlenghth="10">
