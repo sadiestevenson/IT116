@@ -4,45 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Forms</title>
 </head>
 <body>
     <section>
-        <label for="username">Enter A name</label>
-        <input id="username" type="text" placeholder="username" name="username">
 
-        <label for="password">Enter A Passwork</label>
+        <h1>What is your Favorite Food?</h1>
+
+<!--I created the form element for username, password, and the favorite food selection, and moved my paragraph like you asked.-->
+
+        <form action="/forms">
+
+        <p>
+
+         <label for="username">Enter A name</label>
+         <input id="username" type="text" placeholder="username" name="username">
+
+        <label for="password">Enter Passwork</label>
         <input id="Password" type="text" placeholder="password" name="password">
+        
+        </p>
 
+        <p>
 
-
-    <h1>What is your Favorite Food?</h1>
-    <p>
         <label for="favfood">What is your favorite food?</label>
 
-        <select name="favrite"id="favfood">
+        <select name="favorite"id="favfood">
 
             <option value="Missirwot">missirwot</option>
             <option value="DoroWot">DoroWot</option>
             <option value="FirFir">FirFir</option>
 
-            </select>
-            </p>
+         </select>
+         </p>
 
-            <p>
-                <label for="request">Do you have any alargies? If so please type in this box</label>
-                <textarea id="request" name="reqs" row="15" cols="15" placeholder="Type Something Here!"></textarea>
+         <p>
+            <label for="request">Do you have any alargies? If so please type in this box</label>
+            <textarea id="request" name="reqs" row="15" cols="15" placeholder="Type Something Here!"></textarea>
     
-             </p>
+         </p>
     
+         <button>Submit Button</button>
     
-            <button>Submit Button</button>
-    
-
-
-
-
-    </section>
+         </form>
+<!--added my closing form element as well-->
+         </section>
 
 
 
