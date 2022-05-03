@@ -1,0 +1,115 @@
+/* this star means universal selector *{
+    color: pink;
+    background-color: aqua;
+} */
+
+/*i used the body element to change the entire backgorund of the content page to a light brownish shade. 
+I used the hexadecimal calculator because i wanted a certiain shade */
+
+body {
+    background-color: #cbc474dd;
+
+}
+
+/* i used the button element to make all the bottons the same size throughout the content page */
+
+button {
+
+    font-size: 30px;
+}
+
+/*Element selectors allow you to put multiple elements in the css file without a kickback.  */
+
+h1,h2,h4 {
+
+    color: #430000;
+
+}
+
+/* linking by id and we do that with the # selector. This is how you can link Ids for css.
+ i added an id to the log in button cos it looks pretty.*/
+
+#signup{
+
+        background-color: whitesmoke;
+        color: rgb(61, 16, 16);
+
+}
+
+#login{
+
+    background-color:whitesmoke;
+        color: rgb(61, 16, 16);
+}
+
+/*class selectors is how you change a specific word, or phrase in a different color. 
+Use the span tag and add it to your html page in the specific prase you want to change and on 
+the css page you use a period to  identify the class selector*/
+
+.tag{
+    color: darkred;
+}
+
+/*whatever element is under the "parent" class is considered a desendant. in this case class post 
+is the parent and whatever elements you pick under the specified class will be the same throughout the content page. */
+
+.post a{
+
+        color:red;
+}
+
+/*  I used the desendent selector to do the same thing for the footer element as the parent tag, and the anchor tags as desendants */
+
+
+footer > a{
+
+        color: rgb(1, 23, 1);
+}
+/**/
+input[type="password"]{
+
+    color:bisque
+}
+
+input[type="text"]{
+
+    color: bisque;
+}
+
+/*everyting within the anchor tags that has the word google in it will change to the color crimson. The star indicates you're looking for a certain attribute. */
+
+a[href*="google"]{
+
+    color:crimson;
+}
+
+/*Pseudo-classes allows you to do a special state for the specified attribute. In this case we're changing the button color when it is being hovered over. */
+
+button:hover {
+
+    background-color: chartreuse;
+    color: brown;
+}
+
+/*we are calling the post class and changed all the button elements to have the same color throughout the content page when it is hovered over*/
+
+.post button:active {
+
+    background-color: red;
+
+}
+
+/*Pseudo-elements allows you to change multiple elements. In this case we changed all the h2 elements to have a different size for the first letter*/
+
+h2::first-letter {
+
+    font-size: 50px;
+}
+
+/*same concept as above exept for the paragraph element*/
+
+p::first-line{
+
+    color:red;
+}
+

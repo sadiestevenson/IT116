@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+   
+<!--I linked my html page to my css page using the link element-->
+
+    <link rel="stylesheet" href="messageBoard.css">
+
+</head>
+
+
+<body>
+
+<!--I made my first label element for Search within the navagation element, 
+    with the id search. The user will be able to search something.-->
+
+<nav>
+    <h4>Subscribe Below For Updates</h4>
+    <label for="username">Welcome!</label>
+    <input type="text" placeholder="username" id="username">
+   
+    <input type="password" placeholder="password">
+    
+    <button id="login">LOG IN</button>
+    
+    <button id="signup">SIGN UP!</button>
+    
+
+</nav>
+    
+<!--I created the main element which contains the main content on a page. -->
+
+
+ <main> 
+       
+ <h1>This Is A Message Board</h1>
+
+ <!--I created a section class called post. Within the section tag we created 
+    the span element which is an inline container for prhasing content. It is used 
+    to group elements but doesn't have a meaning and is used for styling purposes.-->
+
+<section class="post">
+
+                <span>Posted By <a href="username">/authors name</a></span>
+                <h2>Ethiopian Conflict <span class="tag">UPDATE!</span></h2>
+                <button>+Learn More</button>
+
+                <hr>
+ </section>
+ 
+
+
+            
+  <section class="post">
+
+                <span>Posted By <a href="username">/authors name</a></span>
+                <h2>Tigray Genocide in <span class="tag">ETHIO!</span></h2>
+                <button>+Learn More</button>
+
+                <hr>       
+
+
+
+ </section>
+
+        
+
+ <section class="post">
+
+                <span>Posted By <a href="username">/authors name</a></span>
+                <h2>Oromo Genocide IN <span class="tag">ETHIO!</span></h2>
+                <button>+Learn More</button>
+
+                <hr>      
+
+ </section>
+
+</main>
+
+<p>
+    A conflict between the government of Ethiopia and forces in its northern Tigray region has thrown the country into turmoil.
+Fighting has been going on since November 2020, destabilising the populous country in the Horn of Africa, leaving thousands of 
+people dead with 350,000 others living in famine conditions.
+Eritrean soldiers are also fighting in Tigray for the Ethiopian the government. All sides have been accused of atrocities.
+A power struggle, an election and a push for political reform are among several factors that led to the crisis.
+In simple chunks of 100, 300 and 500 words - we explain how and why the war started.
+
+</p>
+
+    <footer>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a href="https://www.google.com">Google</a>
+                </li>
+            </ul>
+        </nav>
+
+        <a href="link">Title Of Link</a>
+        
+    </footer>
+
+</body>
+
+</html>
