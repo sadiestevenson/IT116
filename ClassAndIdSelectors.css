@@ -1,0 +1,26 @@
+
+.green{
+    color: green;
+}
+
+
+
+
+.yellow{
+    color:yellow;
+}
+
+.red{
+
+    color: red;
+}
+
+
+button:hover{
+
+    background-color: aquamarine;
+}
+
+button{
+    background-color: red;
+}

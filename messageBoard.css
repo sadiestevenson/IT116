@@ -58,7 +58,7 @@ is the parent and whatever elements you pick under the specified class will be t
         color:red;
 }
 
-/*  I used the desendent selector to do the same thing for the footer element as the parent tag, and the anchor tags as desendants */
+/*I used the desendent selector to do the same thing for the footer element as the parent tag, and the anchor tags as desendants */
 
 
 footer > a{
