@@ -1,9 +1,13 @@
+/*here i styled my header tag to a darkcyan color*/
+
 header > a{
         
     color: darkcyan;
     font-size: 30px;
 
 }
+
+/*here i used the class id selector to change the color of the school anchor tags*/
 
 #Schools a{
 
